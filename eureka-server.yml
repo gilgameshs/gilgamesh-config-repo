@@ -1,0 +1,18 @@
+---
+spring:
+  profiles: dev
+eureka:
+  instance:
+    hostname: dev
+  client:
+    serviceUrl:
+      defaultZone: http://dev-peer/eureka/
+---
+spring:
+  profiles: dev-peer
+eureka:
+  instance:
+    hostname: dev-peer
+  client:
+    serviceUrl:
+      defaultZone: http://dev/eureka/

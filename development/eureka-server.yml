@@ -1,18 +1,18 @@
 ---
 spring:
-  profiles: dev
+  profiles: development
 eureka:
   instance:
-    hostname: dev
+    hostname: development
   client:
     serviceUrl:
-      defaultZone: http://dev-peer/eureka/
+      defaultZone: http://development-peer/eureka/
 ---
 spring:
-  profiles: dev-peer
+  profiles: development-peer
 eureka:
   instance:
-    hostname: dev-peer
+    hostname: development-peer
   client:
     serviceUrl:
-      defaultZone: http://dev/eureka/
+      defaultZone: http://development/eureka/

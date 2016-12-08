@@ -1,0 +1,10 @@
+---
+spring:
+  profiles: dev
+travis:
+  name: foo-dev
+---
+spring:
+  profiles: test
+travis:
+  name: foo-dev

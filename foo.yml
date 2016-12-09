@@ -1,8 +1,10 @@
 ---
 spring:
   profiles: dev
-travis: foo-dev
+travis:
+  name: foo-dev
 ---
 spring:
   profiles: test
-travis: foo-dev
+travis:
+  name: foo-dev

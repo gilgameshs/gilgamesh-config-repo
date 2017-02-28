@@ -1,1 +1,2 @@
-Gilgamesh 项目 config远程库 
+# gilgamesh-config-repo
+spring-cloud-config-repo

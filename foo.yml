@@ -7,4 +7,4 @@ travis:
 spring:
   profiles: test
 travis:
-  name: foo-dev
+  name: foo-test

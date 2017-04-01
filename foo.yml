@@ -3,6 +3,9 @@ spring:
   profiles: dev
 travis:
   name: foo-dev
+logging:
+  level:
+    com.sina.necomaker.gilgamesh.client.foo.feign.KuboClient = FULLß
 ---
 spring:
   profiles: test

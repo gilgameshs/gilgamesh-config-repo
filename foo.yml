@@ -5,7 +5,7 @@ travis:
   name: foo-dev
 logging:
   level:
-    com.sina.necomaker.gilgamesh.client.foo.feign.KuboClient = FULLß
+    com.sina.necomaker.gilgamesh.client.foo.feign.KuboClient = FULL
 ---
 spring:
   profiles: test

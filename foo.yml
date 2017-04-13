@@ -8,6 +8,7 @@ zuul:
     kubo:
       path: /v1/kubo/**
       serviceIDd: kubo
+  sensitiveHeaders: Cookie,Set-Cookie,Authorization
 ---
 spring:
   profiles: test

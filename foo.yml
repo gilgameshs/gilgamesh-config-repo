@@ -3,16 +3,11 @@ spring:
   profiles: dev
 travis:
   name: foo-dev
-logging:
-  level:
-    com:
-      sina:
-        necomaker:
-          gilgamesh:
-            client:
-              foo:
-                feign:
-                  KuboClient: FULL
+zuul:
+  routes:
+    kubo:
+      path: /v1/kubo/**
+      serviceIDd: kubo
 ---
 spring:
   profiles: test
